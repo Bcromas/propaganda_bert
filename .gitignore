@@ -6,6 +6,8 @@
 *.txt
 *.pdf
 
+# Directories & paths
+datasets/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
