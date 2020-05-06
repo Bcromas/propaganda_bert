@@ -1,6 +1,6 @@
 # Predicting Propaganda using BERT
 
-<img src="toa-heftiba-QHuauUyXRt8-unsplash.jpg" width="300" height="150" />
+<img src="toa-heftiba-QHuauUyXRt8-unsplash.jpg" width="150" height="250" />
 
 Guide to files:
 * EDA.ipynb
