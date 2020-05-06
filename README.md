@@ -1,5 +1,7 @@
 # Predicting Propaganda using BERT
 
+<img src="https://unsplash.com/photos/QHuauUyXRt8" width="150" height="150" />
+
 Guide to files:
 * EDA.ipynb
   * Exploratory data analysis on training data. 
