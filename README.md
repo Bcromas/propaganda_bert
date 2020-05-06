@@ -10,3 +10,6 @@ Guide to files:
 * generate_data.ipynb
 * dummy_classifier.ipynb
 * logistic_regression.ipynb
+
+
+Photo by Toa Heftiba on Unsplash (https://unsplash.com/photos/QHuauUyXRt8)
