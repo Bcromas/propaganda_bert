@@ -17,4 +17,4 @@ Guide to files:
 * logistic_regression.ipynb
 
 
-Photo by Toa Heftiba on Unsplash (https://unsplash.com/photos/QHuauUyXRt8)
+Photo by [Toa Heftiba on Unsplash](https://unsplash.com/photos/QHuauUyXRt8)
