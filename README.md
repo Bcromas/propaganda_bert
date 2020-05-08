@@ -14,6 +14,9 @@ Guide to files:
   * Create training and dev .tsv files for classifiers.
   * Generate negative spans from news articles, increasing data by +160%.
 * dummy_classifier.ipynb
+  * Establish a baseline model for evaluating more sophisticated models.
+  * Perform multi-class classification using training and dev data.
+  * Evaluate performance using confusion matrix, classification report, and micro F1. 
 * logistic_regression.ipynb
 
 
