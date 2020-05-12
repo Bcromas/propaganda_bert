@@ -2,7 +2,7 @@
 
 <img src="toa-heftiba-QHuauUyXRt8-unsplash.jpg" width="150" height="200" />
 
-<a href="https://medium.com/@bromas/predicting-propaganda-using-bert-bbb28b7deb71?source=friends_link&sk=92b472b78571058f86ab5e4fb679b35a">Medium article for project</a>
+<a href="https://medium.com/@bromas/predicting-propaganda-using-bert-bbb28b7deb71?source=friends_link&sk=92b472b78571058f86ab5e4fb679b35a">Medium article for the project</a>
 
 
 Guide to files:
@@ -19,7 +19,7 @@ Guide to files:
   * Evaluate performance using confusion matrix, classification report, and micro F1. 
 * **logistic_regression.ipynb**
   * Create a logistic regression model.
-  * Perform grid search to fine tune the model's hyperparameters.
+  * Perform grid search to adjust the model's hyperparameters.
   * Perform multi-class classification using training and dev data.
   * Evaluate performance using confusion matrix, classification report, and micro F1.
 * **run_language_modeling.py**
@@ -37,6 +37,6 @@ Guide to files:
 * **bert.py**
   * Train and evaluate the BERT model.
   * This file currently only generates binary predictions.
-  * File is meant to be run on a computing cluster. For instance, it was ran on U-M's Great Lakes cluster using SLURM.
+  * The file is meant to be run on a computing cluster. For instance, it was run on U-M's Great Lakes cluster using SLURM.
 
 Photo by [Toa Heftiba on Unsplash](https://unsplash.com/photos/QHuauUyXRt8)
