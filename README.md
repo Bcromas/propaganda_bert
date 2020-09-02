@@ -22,21 +22,13 @@ Guide to files:
   * Perform grid search to adjust the model's hyperparameters.
   * Perform multi-class classification using training and dev data.
   * Evaluate performance using confusion matrix, classification report, and micro F1.
-* **run_language_modeling.py**
-  * Fine-tune a pre-trained BERT model on the training data. <span style="color:red"> This will require GPU and/or additional compute. Google Colab provides free GPU. </span>
-  * This file comes from Hugging Face 🤗 and can be run as-is. <a href="https://github.com/huggingface/transformers/blob/master/examples/language-modeling/run_language_modeling.py">Here is a link to the latest version on their repo.</a>
-  * The call to run_language_modeling.py should look something like the following:
-        python run_language_modeling.py \
-          --model_type=distilbert \
-          --model_name_or_path=distilbert-base-cased \
-          --do_train \
-          --train_data_file=datasets/train_data.tsv   \
-          --output_dir=output \
-          --mlm
-  * Once the fine-tuning is completed there will be a number of files in the directory specified in output_dir, these comprise the new BERT model we'll use next.
-* **bert.py**
-  * Train and evaluate the BERT model.
-  * This file currently only generates binary predictions.
-  * The file is meant to be run on a computing cluster. For instance, it was run on U-M's Great Lakes cluster using SLURM.
+* **bert_training_validation.ipynb**
+  * Fine-tune a pre-trained BERT model on the training data.
+  * Perform hyperparameter tuning by evaluating different variations based on: model, epochs, learning rate, and batch size.
+  * Evaluate average performance on validation sets using accuracy, precision, recall, and F1.
+  * Save the best performing version for evalution on the test set.
+* **bert_testing.ipynb**
+  * Run best performing version on test data.
+  * Evaluate performance using accuracy, precision, recall, and F1.
 
 Photo by [Toa Heftiba on Unsplash](https://unsplash.com/photos/QHuauUyXRt8)
